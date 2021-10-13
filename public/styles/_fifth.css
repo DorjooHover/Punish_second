@@ -1,0 +1,18 @@
+#fifth .container {
+    display: flex;
+    justify-content: space-between;
+}
+#fifth {
+    margin-top: 5rem;
+}
+.fifth_left ul li i {
+    margin-right: 1rem;
+    color: var(--neon-color);
+    line-height: 2em;
+}
+.fifth_left ul li {
+    color: #a7a7a7;
+}
+.fifth_left ul {
+    margin-bottom: 2rem;
+}

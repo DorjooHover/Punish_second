@@ -1,0 +1,11 @@
+<% seventh.forEach(function(data) { %>
+<div class="seventh_area <%= data.special%>" data-aos="zoom-in">
+  <div class="seventh_img ">
+    <img src="<%= data.image_path%>" alt="" />
+  </div>
+  <div class="seventh_text">
+    <h3><%=data.title%>></h3>
+    <p><%= data.text%></p>
+  </div>
+</div>
+<% })%>

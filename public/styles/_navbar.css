@@ -1,0 +1,44 @@
+.nav-container {
+    max-width: 1140px;
+    margin:auto;
+    margin-top: 2rem;
+}
+.nav {
+    max-height: 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav ul {
+    display: flex;
+    align-items: center;
+}
+.nav ul li {
+    padding: 0.8rem 1.5rem;
+}
+.nav ul li a {
+    color: #fff;
+
+}
+.nav img {
+    width: auto;
+    padding: 0.8rem 0;
+}
+.nav-btn {
+    background: var(--neon-color);
+}
+.btn {
+    padding: 0.8rem 2.5rem !important;
+    border-radius: 5px;
+    color: #fff;
+}
+.hamburger {
+    display: none;
+}
+.hamburger i {
+    font-size: 1.5rem;
+    
+}
+.hamburger a {
+    color: #000;
+}

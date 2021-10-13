@@ -1,0 +1,32 @@
+#contact {
+    margin-top: 5rem;
+}
+#contact .container {
+    width: 60%;
+}
+.contact_top {
+    text-align: center;
+}
+form {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+}
+textarea {
+    grid-column: 1/span 2;
+    height: 100px;
+}
+form input, textarea {
+    padding: 0.5rem;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    border: #f2f1ff 1px solid;
+}
+.submit {
+    position: relative;
+    width: 150px;
+    grid-column: 2 span;
+    margin: auto;
+    padding: 0.5rem 2rem !important;
+}

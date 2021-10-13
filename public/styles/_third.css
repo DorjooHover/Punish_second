@@ -1,0 +1,9 @@
+#third {
+    margin-top: 5rem;
+}
+#third .container {
+    display: flex;
+}
+.third_right {
+    margin-left: 5rem;
+}

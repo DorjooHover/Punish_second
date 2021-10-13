@@ -1,0 +1,20 @@
+<% sixth.forEach(function(data) { %>
+    <div class="swiper-slide">
+        <div class="sixth_slide_top">
+          <img src="<%= data.image_path%>" alt="" />
+          <div class="rating">
+            <h5><%= data.name%></h5>
+            <ul>
+                <% data.rating.forEach(function(data1) { %>
+                    <li><i class="fas fa-<%=data1%>"></i></li>
+               <% }) %>
+            </ul>
+          </div>
+        </div>
+        <div class="sixth_bot">
+          <p>
+            <%= data.text%>
+          </p>
+        </div>
+      </div>
+    <% })%>

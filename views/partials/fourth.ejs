@@ -1,0 +1,19 @@
+<% fourth.forEach(function(data) { %>
+    <div class="fourth_bot_area">
+        <img src="<%=data.image_path%>" alt="" />
+        <div class="bot_area_info">
+          <div class="info_left">
+            <li><i class="fas fa-book"></i> 38 Lessons</li>
+            <li><i class="fas fa-calendar-alt"></i> 25 Oct 2020</li>
+          </div>
+          <div class="info_rigth">
+            <p><%= data.price%></p>
+          </div>
+        </div>
+        <h2><%= data.title%></h2>
+        <p>
+          <%= data.text%>
+        </p>
+        <a href="#" class="btn fourth_btn btn_neon">Enroll now</a>
+      </div>
+<% })%>

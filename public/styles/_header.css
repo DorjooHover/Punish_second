@@ -1,0 +1,40 @@
+#header {
+    height: 115vh;
+    margin-top: -104px;
+    display: flex;
+    align-items: flex-end;
+    background: url('/img/header/header_bg.png');
+    background-size: 70% 100%;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+#header .container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15rem;
+}
+.header_left {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+}
+.header_left img {
+    width: 121px;
+    padding-left: 2rem;
+    margin-bottom: 2rem;
+}
+.header_left h1 {
+    font-size: 70px;
+    color: var(--large-font-color);
+    line-height: 1.1em;
+    font-weight: 600;
+}
+.header_left p {
+    margin-top: 2rem;
+}
+.header_btns {
+    margin-top: 3rem;
+}
+.header_btns a:nth-child(1) {
+    margin-right: 1rem;
+}

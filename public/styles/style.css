@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;900&display=swap');
+@import url(_navbar.css);
+@import url(_header.css);
+@import url(_second.css);
+@import url(_third.css);
+@import url(_fourth.css);
+@import url(_fifth.css);
+@import url(_six.css);
+@import url(_seventh.css);
+@import url(_contact.css);
+@import url(_footer.css);
+@import url(media.css);
+:root {
+    --neon-color:#00dab2;
+    --large-font-color:#0b2b44;
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+img {
+    width: 100%;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6,p,ul {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.btn_neon {
+    background: var(--neon-color);
+}
+.btn_blue {
+    background: var(--large-font-color);
+}
+.neon_title {
+    color:var(--neon-color);
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.large_title {
+    color: var(--large-font-color);
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 1em;
+    margin-bottom: 0.5rem;
+}
+p {
+    color: #7a7a7a;
+}

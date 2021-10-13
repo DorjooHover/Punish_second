@@ -1,0 +1,10 @@
+<% second_right.forEach(function(data) { %>
+    <div class="second_right_area">
+        <img src="<%= data.image_path%>" alt="" />
+        <h2><%= data.title%></h2>
+        <p>
+          <%= data.text %>
+        </p>
+        <a href="#">Read more<i class="fas fa-arrow-right"></i></a>
+    </div>
+<% })%>
